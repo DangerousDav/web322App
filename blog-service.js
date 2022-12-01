@@ -42,7 +42,6 @@ module.exports.getAllPosts = function(){
             reject("no results returned");
         })
 });
-
 }
 
 module.exports.getPostsByCategory = function(category){
